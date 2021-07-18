@@ -1,12 +1,16 @@
 import React from 'react';
-import style from './App.css';
+import './App.css';
+import Button from './Button';
 
-export default function App() {
+function App() {
   return (
-    <h1 className={style.title}>
-      hello React
-    </h1>
+    <>
+      <h1 className={'title'}>
+        hello React
+      </h1>
+      <Button/>
+    </>
   );
 }
 
-// export default App;
+export default App;
